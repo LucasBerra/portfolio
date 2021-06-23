@@ -1,0 +1,44 @@
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-in-right {
+  from {
+    position: relative;
+    left: 50px;
+    opacity: 0;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes move-in-right {
+  from {
+    position: relative;
+    left: 50px;
+    opacity: 0;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=animations.css.map */
