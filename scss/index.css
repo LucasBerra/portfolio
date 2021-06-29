@@ -363,7 +363,7 @@ img {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto 60px auto;
+  margin: 0 auto;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -550,9 +550,6 @@ footer {
   }
   .skills-container {
     grid: repeat(6, 80px)/1fr;
-  }
-  .projects-flex {
-    margin-bottom: 40px;
   }
   .projects-flex-item {
     -webkit-box-orient: vertical;
