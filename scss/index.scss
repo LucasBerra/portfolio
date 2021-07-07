@@ -351,13 +351,19 @@ footer {
   background-color: rgba(76, 72, 117, 0.5);
   font-size: 1em;
   text-align: center;
+  a {
+    color: white;
+  }
 }
 
 #footer {
   background-color: rgb(202, 79, 141);
 }
 
-
+#copyright {
+  margin: 10px 0 30px;
+  font-size: 15px;
+}
 
 /*******************************
   MEDIA QUERY FOR MOBILE DEVICES
