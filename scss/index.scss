@@ -387,7 +387,7 @@ footer {
   MEDIA QUERY FOR MOBILE DEVICES
 ********************************/
 
-@media (max-width: 576px) {
+@media (max-width: 767.98px) {
   .social-links {
     li {
       width: 45px;
@@ -496,28 +496,27 @@ footer {
   }
 
   .projects-flex-item {
-    flex-direction: column;
-    width: 350px;
-    padding: 0px;
+    flex-direction: row;
+    max-width: 90vw;
     align-items: center;
     gap: 15px;
-    padding: 10px 20px 15px;
+    padding: 0 20px;
 
     h4 {
       width: 100%;
-      text-align: center;
+      text-align: left;
     }
 
     p {
       width: 100%;
-      font-size: 15px;
-      text-align: center;
+      text-align: left;
       margin: 0;
     }
 
     img {
       height: 130px;
       width: 210px;
+      margin: 10px 0;
     }
   }
 
@@ -531,5 +530,32 @@ footer {
     max-width: 93vw;
     font-size: 16px;
     gap: 10px;
+  }
+}
+
+@media (max-width: 575.98px) { 
+  
+
+  .projects-flex-item {
+    flex-direction: column;
+    width: 86vw;
+    padding: 10px 20px 15px;
+    align-items: center;
+    gap: 0px;
+
+    h4 {
+      width: 100%;
+      text-align: center;
+    }
+
+    p {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    img {
+      height: 110px;
+      width: 170px;
+    }
   }
 }
