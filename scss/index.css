@@ -315,8 +315,8 @@ img {
 .skills-container {
   display: -ms-grid;
   display: grid;
-  grid: repeat(2, 1fr)/repeat(3, 1fr);
-  width: 760px;
+  grid: repeat(2, 1fr)/repeat(2, 1fr);
+  width: 500px;
   max-width: 95%;
   height: auto;
   -webkit-box-align: center;
@@ -328,8 +328,7 @@ img {
   .skills-container {
     display: -ms-grid;
     display: grid;
-    grid: repeat(3, 1fr)/50% 50%;
-    width: 620px;
+    grid: repeat(2, 1fr)/50% 50%;
     max-width: 95%;
     height: auto;
     -webkit-box-align: center;
@@ -375,7 +374,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 460px;
-  max-width: 95%;
+  max-width: 90%;
 }
 
 .secondary-skills-items {
@@ -430,7 +429,7 @@ img {
           align-items: center;
   border-radius: 8px;
   width: 520px;
-  max-width: 90vw;
+  max-width: 70vw;
   height: 120px;
   gap: 20px;
   height: auto;
@@ -495,7 +494,7 @@ footer {
       flex-wrap: wrap;
   gap: 20px;
   height: auto;
-  width: 900px;
+  width: 700px;
   max-width: 75vw;
   padding: 20px;
   margin: 20px auto;
@@ -521,6 +520,7 @@ footer a {
   margin: 10px 0 30px;
   font-size: 15px;
   font-style: italic;
+  text-align: center;
 }
 
 /*******************************
@@ -607,7 +607,7 @@ footer a {
     max-width: 94vw;
   }
   .skills-container {
-    grid: repeat(3, 70px)/1fr 1fr;
+    grid: repeat(2, 70px)/1fr 1fr;
   }
   .projects-flex-item {
     -webkit-box-orient: horizontal;
@@ -652,15 +652,22 @@ footer a {
 
 @media (max-width: 575.98px) {
   .skills-container {
-    grid: repeat(3, 90px)/1fr 1fr;
+    grid: repeat(2, 90px)/1fr 1fr;
+    width: 280px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .skills-items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 4px;
-    padding: 10px 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 16px;
   }
   .skills-items h5 {
     margin: 0 0 5px 0;
