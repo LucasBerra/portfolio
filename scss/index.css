@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("./animations.css");
-body, html {
+body,
+html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0px;
@@ -11,7 +12,9 @@ body, html {
   color: white;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -34,8 +37,8 @@ body, html {
   text-align: center;
   font-size: 25px;
   opacity: 0;
-  -webkit-animation: 'fade-in' 1200ms ease-out forwards;
-          animation: 'fade-in' 1200ms ease-out forwards;
+  -webkit-animation: "fade-in" 1200ms ease-out forwards;
+          animation: "fade-in" 1200ms ease-out forwards;
   -webkit-animation-delay: 1550ms;
           animation-delay: 1550ms;
   cursor: default;
@@ -97,8 +100,8 @@ body, html {
       grid-template-rows: 8% 1fr 7%;
   -ms-grid-columns: 7.6% 1fr;
       grid-template-columns: 7.6% 1fr;
-  -webkit-animation: 'fade-in' 1000ms ease-out;
-          animation: 'fade-in' 1000ms ease-out;
+  -webkit-animation: "fade-in" 1000ms ease-out;
+          animation: "fade-in" 1000ms ease-out;
   position: relative;
   background-color: #1e1e1e;
   height: 420px;
@@ -165,7 +168,8 @@ body, html {
   margin: 0;
 }
 
-#presentation__body .body__1, #presentation__body .body__2 {
+#presentation__body .body__1,
+#presentation__body .body__2 {
   -webkit-animation-delay: 800ms;
           animation-delay: 800ms;
   font-weight: bold;
@@ -204,8 +208,8 @@ body, html {
 
 .animation-shared-properties {
   opacity: 0;
-  -webkit-animation-name: 'move-in-right';
-          animation-name: 'move-in-right';
+  -webkit-animation-name: "move-in-right";
+          animation-name: "move-in-right";
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-duration: 800ms;
@@ -228,7 +232,7 @@ body, html {
           align-items: center;
   background-color: #007acc;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-family: "Gill Sans", "Gill Sans MT";
   font-weight: bold;
   font-size: 14px;
 }
@@ -246,8 +250,8 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   opacity: 0;
-  -webkit-animation-name: 'fade-in';
-          animation-name: 'fade-in';
+  -webkit-animation-name: "fade-in";
+          animation-name: "fade-in";
   -webkit-animation-duration: 1200ms;
           animation-duration: 1200ms;
   -webkit-animation-delay: 1550ms;
@@ -563,7 +567,8 @@ footer a {
     padding: 0;
     margin: 0;
   }
-  #presentation__body .body__1, #presentation__body .body__2 {
+  #presentation__body .body__1,
+  #presentation__body .body__2 {
     padding: 0;
     margin: 0;
   }
@@ -580,8 +585,8 @@ footer a {
     margin-bottom: 0;
   }
   #presentation__body .body__4 {
-    font-size: 16px;
-    margin: 0;
+    font-size: 14px;
+    margin: 0.25rem 0 0 0;
   }
   #presentation__bottom {
     font-size: 12px;
