@@ -1,244 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Berra - Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucas Berra - Portfolio</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/56253962f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./scss/index.css" />
+    <link rel="preload" as="image" href="./images/presentation__bg.jpg" />
+  </head>
 
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/56253962f5.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./scss/index.css">
-  <link rel="preload" as="image" href="./images/presentation__bg.jpg">
-</head>
+  <body>
+    <header>
+      <div id="presentation__bg">
+        <!-- links to socials at topw-right of screen -->
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/LucasBerra"
+              target="_blank"
+              title="GitHub Profile"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lucas-berra/"
+              target="_blank"
+              title="LinkedIn Profile"
+              ><i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
 
-<body>
-  <header>
-    <div id="presentation__bg">
-      <!-- links to socials at topw-right of screen -->
-      <ul class="social-links">
-        <li><a href="https://github.com/LucasBerra" target="_blank" title="GitHub Profile"><i
-              class="fab fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/lucas-santiago-berra-a55267201/" target="_blank"
-            title="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a></li>
-      </ul>
-
-      <!-- welcome card -->
-      <div id="presentation">
-        <div id="presentation__top">
-          <div><img src="images/favicon.ico" id="icon-lb"></div>
-          <div class="presentation-icons"><i class="fas fa-window-minimize"></i></div>
-          <div class="presentation-icons"><i class="far fa-window-maximize"></i></div>
-          <div class="presentation-icons"><i class="fas fa-times"></i></div>
-        </div>
-        <div id="presentation__left"></div>
-        <div id="presentation__body">
-          <h1>
-            <p class="animation-shared-properties body__1">Hi, I'm</p>
-            <p class="animation-shared-properties body__2">Lucas Santiago Berra</p>
-          </h1>
-          <p class="body__3 animation-shared-properties"><i class="fas fa-angle-right"></i>
-            Front-end Developer
-          </p>
-          <p class="body__4 animation-shared-properties"><i class="fas fa-angle-double-right"></i>
-            HTML / CSS / JS / React
-          </p>
-        </div>
-        <div id="presentation__bottom">
-          <i class="fas fa-times-circle" style="margin-left: 15px"></i>
-          <p>0</p>
-          <i class="fas fa-exclamation-triangle"></i>
-          <p>0</p>
+        <!-- welcome card -->
+        <div id="presentation">
+          <div id="presentation__top">
+            <div><img src="images/favicon.ico" id="icon-lb" /></div>
+            <div class="presentation-icons">
+              <i class="fas fa-window-minimize"></i>
+            </div>
+            <div class="presentation-icons">
+              <i class="far fa-window-maximize"></i>
+            </div>
+            <div class="presentation-icons"><i class="fas fa-times"></i></div>
+          </div>
+          <div id="presentation__left"></div>
+          <div id="presentation__body">
+            <h1>
+              <p class="animation-shared-properties body__1">Hi, I'm</p>
+              <p class="animation-shared-properties body__2">
+                Lucas Santiago Berra
+              </p>
+            </h1>
+            <p class="body__3 animation-shared-properties">
+              <i class="fas fa-angle-right"></i>
+              Front-end Developer
+            </p>
+            <p class="body__4 animation-shared-properties">
+              <i class="fas fa-angle-double-right"></i>
+              HTML / CSS / JS / React
+            </p>
+          </div>
+          <div id="presentation__bottom">
+            <i class="fas fa-times-circle" style="margin-left: 15px"></i>
+            <p>0</p>
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>0</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <br>
+      <br />
 
-    <div class="presentation__description">
-      <p>
-        I'm a web developer located in Buenos Aires, highly motivated to create and grow in the programming world. If
-        you're looking for someone who enjoys developing new websites, user interfaces and interactive applications, as
-        well as someone who wishes to be in an enviroment that'll let him improve his abilities, you can contact me
-        through <a href=#footer title="Go to Contact section">these means</a> at the bottom.
-      </p>
-    </div>
-  </header>
-  <br><br>
-
-  <main>
-    <section id="skills">
-      <h2>&lt;Skills /></h2>
-      <h3>Experience/knowledge in different languages...</h3>
-      <div class="skills-container">
-        <div class="skills-items">
-          <h5>HTML</h5>
-          <div class="skills-items-bullet">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-          </div>
-        </div>
-
-        <div class="skills-items">
-          <h5>CSS</h5>
-          <div class="skills-items-bullet">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle-notch"></i>
-          </div>
-        </div>
-
-        <div class="skills-items">
-          <h5>Javascript</h5>
-          <div class="skills-items-bullet">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle-notch"></i>
-            <i class="fas fa-circle-notch"></i>
-          </div>
-        </div>
-
-        <div class="skills-items">
-          <h5>React</h5>
-          <div class="skills-items-bullet">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle-notch"></i>
-            <i class="fas fa-circle-notch"></i>
-            <i class="fas fa-circle-notch"></i>
-          </div>
-        </div>
-
+      <div class="presentation__description">
+        <p>
+          I'm a web developer located in Buenos Aires, highly motivated to
+          create and grow in the programming world. If you're looking for
+          someone who enjoys developing new websites, user interfaces and
+          interactive applications, as well as someone who wishes to be in an
+          enviroment that'll let him improve his abilities, you can contact me
+          through
+          <a href="#footer" title="Go to Contact section">these means</a> at the
+          bottom.
+        </p>
       </div>
-      <h4>...and other things I know.</h4>
-      <div class="secondary-skills">
-        <div class="secondary-skills-items">Git</div>
-        <div class="secondary-skills-items">GitHub</div>
-        <div class="secondary-skills-items">Sass/SCSS</div>
-        <div class="secondary-skills-items">Bootstrap</div>
-        <div class="secondary-skills-items">Wireframes</div>
-        <div class="secondary-skills-items">Responsive Design</div>
-        <div class="secondary-skills-items">APIs</div>
+    </header>
+    <br /><br />
 
-
-      </div>
-      <br>
-      <p>I studied programming at the National University of San Martín (UNSAM) for three years, and over the course of a year and a half I've been studying web languages and creating websites. All of this has let accumulate experience creating page layouts and algorithms, and I'm looking to grow much more!</p>
-      <br>
-    </section>
-
-
-    <section id="projects">
-      <h2>&lt;Projects /></h2>
-      <h3 style="margin-bottom: 30px"> Different projects I've created:</h3>
-      <div class="projects-flex">
-        
-        <a href="https://json-product-loader.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>JSON Product Loader</h5>
-            <p>A page that fetches data from an external API and organizes it into categories. Made with React and React Router.</p>
+    <main>
+      <section id="skills">
+        <h2>&lt;Skills /></h2>
+        <h3>Experience/knowledge in different languages...</h3>
+        <div class="skills-container">
+          <div class="skills-items">
+            <h5>HTML</h5>
+            <div class="skills-items-bullet">
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+            </div>
           </div>
-          <img src="./images/projects/projects-JSONproduct.png" alt="JSON Product Loader">
-        </a>
 
-        <a href="https://rock-paper-scissors-lb.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>Rock, Paper, Scissors</h5>
-            <p>A simple game of Rock, Paper, Scissors made with a bit of JS. As a personal touch, all drawings are made by me!</p>
+          <div class="skills-items">
+            <h5>CSS</h5>
+            <div class="skills-items-bullet">
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle-notch"></i>
+            </div>
           </div>
-          <img src="./images/projects/projects-rockPaperScissors.png" alt="Rock, Paper, Scissors">
-        </a>
 
-        <a href="https://quote-generator-lb.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>Random Quote Generator</h5>
-            <p>Generate quotes from a list of over 1600 phrases. Made with React.</p>
+          <div class="skills-items">
+            <h5>Javascript</h5>
+            <div class="skills-items-bullet">
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle-notch"></i>
+              <i class="fas fa-circle-notch"></i>
+            </div>
           </div>
-          <img src="./images/projects/projects-randomQuoteGenerator.png" alt="Random Quote Generator">
-        </a>
 
-        <a href="https://color-generator-lb.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>Color Generator</h5>
-            <p>An app that generates different shades off of a color of your choosing through hex values. Made with React.</p>
+          <div class="skills-items">
+            <h5>React</h5>
+            <div class="skills-items-bullet">
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-circle-notch"></i>
+              <i class="fas fa-circle-notch"></i>
+              <i class="fas fa-circle-notch"></i>
+            </div>
           </div>
-          <img src="./images/projects/projects-colorGenerator.png" alt="Color Generator">
-        </a>
+        </div>
+        <h4>...and other things I know.</h4>
+        <div class="secondary-skills">
+          <div class="secondary-skills-items">Git</div>
+          <div class="secondary-skills-items">GitHub</div>
+          <div class="secondary-skills-items">Sass/SCSS</div>
+          <div class="secondary-skills-items">Bootstrap</div>
+          <div class="secondary-skills-items">Wireframes</div>
+          <div class="secondary-skills-items">Responsive Design</div>
+          <div class="secondary-skills-items">APIs</div>
+        </div>
+        <br />
+        <p>
+          I studied programming at the National University of San Martín (UNSAM)
+          for three years, and over the course of a year and a half I've been
+          studying web languages and creating websites. All of this has let
+          accumulate experience creating page layouts and algorithms, and I'm
+          looking to grow much more!
+        </p>
+        <br />
+      </section>
 
-        <a href="https://iwsh.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>Iwsh Artist Page</h5>
-            <p>A music artist's discography, streaming services and social links site. Made with Sass and Bootstrap, fully responsive.</p>
-          </div>
-          <img src="./images/projects/projects-iwsh-artist-page.png" alt="Iwsh Artist Page">
-        </a>
+      <section id="projects">
+        <h2>&lt;Projects /></h2>
+        <h3 style="margin-bottom: 30px">Different projects I've created:</h3>
+        <div class="projects-flex">
+          <a
+            href="https://json-product-loader.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>JSON Product Loader</h5>
+              <p>
+                A page that fetches data from an external API and organizes it
+                into categories. Made with React and React Router.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-JSONproduct.png"
+              alt="JSON Product Loader"
+            />
+          </a>
 
-        <a href="https://fgc-essentials.netlify.app/" target="_blank" class="projects-flex-item">
-          <div style="width: fit-content">
-            <h5>FGC Essentials</h5>
-            <p>An introduction to different concepts, mechanics and terminology used in fighting games. Made with plain HTML/Sass. </p>
-          </div>
-          <img src="./images/projects/projects-FGCessentials.png" alt="FGC Essentials">
-        </a>
+          <a
+            href="https://rock-paper-scissors-lb.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>Rock, Paper, Scissors</h5>
+              <p>
+                A simple game of Rock, Paper, Scissors made with a bit of JS. As
+                a personal touch, all drawings are made by me!
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-rockPaperScissors.png"
+              alt="Rock, Paper, Scissors"
+            />
+          </a>
 
-        <a href="https://review-page-mockup.netlify.app/" target="_blank" class="projects-flex-item">
-          <div>
-            <h5>Review Page Mockup</h5>
-            <p>A very simple app for a mockup review page. Made with React and a bit of Font Awesome.</p>
-          </div>
-          <img src="./images/projects/projects-reviewPageMockup.png" alt="Review Page Mockup">
-        </a>
+          <a
+            href="https://quote-generator-lb.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>Random Quote Generator</h5>
+              <p>
+                Generate quotes from a list of over 1600 phrases. Made with
+                React.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-randomQuoteGenerator.png"
+              alt="Random Quote Generator"
+            />
+          </a>
 
-        <!-- <a href=# target="_blank" class="projects-flex-item">
+          <a
+            href="https://color-generator-lb.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>Color Generator</h5>
+              <p>
+                An app that generates different shades off of a color of your
+                choosing through hex values. Made with React.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-colorGenerator.png"
+              alt="Color Generator"
+            />
+          </a>
+
+          <a
+            href="https://iwsh.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>Iwsh Artist Page</h5>
+              <p>
+                A music artist's discography, streaming services and social
+                links site. Made with Sass and Bootstrap, fully responsive.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-iwsh-artist-page.png"
+              alt="Iwsh Artist Page"
+            />
+          </a>
+
+          <a
+            href="https://fgc-essentials.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div style="width: fit-content">
+              <h5>FGC Essentials</h5>
+              <p>
+                An introduction to different concepts, mechanics and terminology
+                used in fighting games. Made with plain HTML/Sass.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-FGCessentials.png"
+              alt="FGC Essentials"
+            />
+          </a>
+
+          <a
+            href="https://review-page-mockup.netlify.app/"
+            target="_blank"
+            class="projects-flex-item"
+          >
+            <div>
+              <h5>Review Page Mockup</h5>
+              <p>
+                A very simple app for a mockup review page. Made with React and
+                a bit of Font Awesome.
+              </p>
+            </div>
+            <img
+              src="./images/projects/projects-reviewPageMockup.png"
+              alt="Review Page Mockup"
+            />
+          </a>
+
+          <!-- <a href=# target="_blank" class="projects-flex-item">
           <div>
             <h5>Placeholder</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vero dolore harum non doloremque illo atque ipsum, soluta minus?</p>
           </div>
           <img src="./images/projects/projects-placeholder.jpg" alt="#">
         </a> -->
-        
-      </div>
-      <p style="text-align: center; margin: 40px 0">The code for these sites I've made is in <a href="https://github.com/LucasBerra" class="link">my GitHub profile</a> so feel free to look around!</p>
+        </div>
+        <p style="text-align: center; margin: 40px 0">
+          The code for these sites I've made is in
+          <a href="https://github.com/LucasBerra" class="link"
+            >my GitHub profile</a
+          >
+          so feel free to look around!
+        </p>
+      </section>
+    </main>
+
+    <section id="footer">
+      <h2>&lt;Contact /></h2>
+      <h3>You can reach me through the means below:</h3>
+      <footer>
+        <!-- meter github y eso -->
+        <div>
+          <span><b>Email:</b></span> <br />
+          <a href="mailto:berra.lucas.santiago@gmail.com" class="link"
+            ><i class="far fa-envelope"></i> berra.lucas.santiago@gmail.com</a
+          >
+        </div>
+
+        <div>
+          <span><b>WhatsApp:</b></span> <br />
+          <a href="https://wa.me/+5491164559178?" class="link"
+            ><i class="fab fa-whatsapp"></i> (+54) 9 116-455-9178</a
+          >
+        </div>
+      </footer>
+      <span id="copyright"
+        >© Copyright 2021 / Lucas Santiago Berra, Bs.As.</span
+      >
     </section>
-  </main>
-
-  <section id="footer">
-    <h2>&lt;Contact /></h2>
-    <h3>You can reach me through the means below:</h3>
-    <footer>
-      <!-- meter github y eso -->
-      <div>
-        <span><b>Email:</span></b> <br>
-        <a href="mailto:berra.lucas.santiago@gmail.com" class="link"><i class="far fa-envelope"></i>
-          berra.lucas.santiago@gmail.com</a>
-      </div>
-
-      <div>
-        <span><b>WhatsApp:</b></span> <br>
-        <a href="https://wa.me/+5491164559178?" class="link"><i class="fab fa-whatsapp"></i> (+54) 9 116-455-9178</a>
-      </div>
-    </footer>
-    <span id="copyright">© Copyright 2021 / Lucas Santiago Berra, Bs.As.</span>
-  </section>
-</body>
-
+  </body>
 </html>
